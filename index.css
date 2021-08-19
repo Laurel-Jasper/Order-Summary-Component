@@ -1,0 +1,126 @@
+/* Global */
+html {
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  margin: 0;
+  height: 10000px;
+}
+body * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#preview {
+  /* background-image: url(design/mobile-design.jpg); */
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 709px;
+  position: absolute;
+  opacity: 0.8;
+  top: 0;
+  width: 100%;
+  pointer-events: none;
+}
+.container {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.card {
+  background-image: url(images/illustration-hero.svg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  max-width: 460px;
+  margin-top: 70px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  padding-top: 170px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.card > h2,
+.card > p {
+  text-align: center;
+}
+.card > h2 {
+  margin-top: 22px;
+  font-size: 23px;
+}
+.card > p {
+  margin-top: 18px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 0 18px;
+}
+.plan {
+  background-color: #f8f9fe;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.plan > div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.plan-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+.plan-content > h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+}
+.plan-content > p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.plan-button {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: hsl(228, 45%, 44%);
+  text-decoration: underline;
+}
+.card-button {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 0;
+  appearance: none;
+  background-color: transparent;
+}
+.card-button-primary {
+  margin-top: 10px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #382AE1;
+}
+.card-button-secondary {
+  margin-top: 18px;
+  color: #757B93;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
